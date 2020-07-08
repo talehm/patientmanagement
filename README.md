@@ -1,2 +1,7 @@
 # patientmanagement
-Patient Management System on .NET and React JS
+Patient Management System written on .NET Core and React JS
+
+Cepres Task
+
+
+
