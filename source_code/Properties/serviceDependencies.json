@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "Server=tcp:cepres.database.windows.net,1433;InitialCatalog=patientDB;PersistSecurityInfo=False;UserID=cepres;Password=k2gVBjw4!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;ConnectionTimeout=30;"
+    },
+    "mssql2": {
+      "type": "mssql",
+      "connectionId": "AzureDB"
+    }
+  }
+}

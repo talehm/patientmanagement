@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "type": "mssql.onprem",
+      "connectionId": "Server=tcp:cepres.database.windows.net,1433;InitialCatalog=patientDB;PersistSecurityInfo=False;UserID=cepres;Password=k2gVBjw4!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;ConnectionTimeout=30;",
+      "secretStore": "AzureAppSettings"
+    },
+    "mssql2": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroup')]/providers/Microsoft.Sql/servers/cepres/databases/patientDB",
+      "type": "mssql.azure",
+      "connectionId": "AzureDB",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
